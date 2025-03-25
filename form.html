@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Judul -->
+    <h2>Pendaftaran Mahasiswa Baru</h2>
+
+    <!-- input NPM -->
+    <form action="#" method="Get">
+        <label for="NPM">NPM (Nomor Induk Mahasiswa)</label> 
+        <br>
+        <input class="input" type="number" name="NPM" id="NPM">
+    </form>
+
+    <!-- input Nama -->
+    <form action="#" method="Get">
+        <label for="nama">Nama Lengkap</label>
+        <br>
+        <input class="input" type="text" name="nama" id="nama">
+    </form>
+
+    <!-- input Alamat -->
+    <form action="#" method="Get">
+        <label for="alamat">alamat</label>
+        <br>
+        <textarea name="NPM" id="NPM"></textarea>
+    </form>
+
+    <!-- Check Box Jenis Kelamin -->
+    <form action="#" method="Get">
+        <label class="jenisKelamin" for="jenisKelamin">Jenis Kelamin</label>
+        <br>
+        <input type="radio" name="jenisKelamin" id="jenisKelamin" value="laki-laki">laki-laki 
+        <br>
+        <input type="radio" name="jenisKelamin" id="jenisKelamin" value="perempuan">perempuan
+    </form>
+
+    <!-- Program Studi -->
+    <form action="#" method="Get">
+        <label for="programStudi">Program Studi</label>
+        <br>
+        <select class="opsi" name="programStudi" id="programStudi">
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+        </select>
+
+         <!-- button -->
+    <input type="submit" value="Tambah" class="button">
+    </form>
+
+    
+</body>
+</html>
